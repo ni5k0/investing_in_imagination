@@ -2,6 +2,8 @@
 
 My investment journey + AI imagination !
 
+ 🔴_🟢
+
 ## Projects 
 
 - [ATH Videos with a spark of AI, enjoy!](https://ni5k0.github.io/investing_in_imagination/ath_videos/)
@@ -20,7 +22,7 @@ My investment journey + AI imagination !
     The foundation of business strategy by Hamilton Helmer
     Framework
 
-![HOOD 2025 7 Powers](hood_2025_7power.jpg)
+![HOOD 2025 7 Powers](img/hood_2025_7power.jpg)
 
 ```
 🔖 The foundation of business strategy by Hamilton Helmer. 
@@ -41,3 +43,15 @@ My investment journey + AI imagination !
 ```
 
 X Post: https://x.com/ni5k0/status/1942026312476185079
+
+## $NFLY Paid once - subscribe forever 
+
+    The utility of an investment for entertainment. Use $NFLY div
+    & paid for Netflix subscription. 
+
+    This strategy can be applied to any subscriptions. The 
+    downside is that the net asset value might erode over time.
+
+![The forever subscription](img/netlix_forever.png)
+
+X Post: https://x.com/ni5k0/status/1941553624053842069
