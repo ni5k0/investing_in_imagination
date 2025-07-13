@@ -1,4 +1,8 @@
-# investing_in_imagination
+# investing in imagination
+
+## Projects 
+
+[link to ](https://ni5k0.github.io/investing_in_imagination/ath_videos/)ATH with a spark of AI, enjoy! 
 
 My investment strategies
 
