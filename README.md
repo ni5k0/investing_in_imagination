@@ -1,12 +1,20 @@
 # investing in imagination
 
+My investment journey + Fiancial AI imagination !
+
 ## Projects 
 
-[link to ](https://ni5k0.github.io/investing_in_imagination/ath_videos/)ATH with a spark of AI, enjoy! 
+- [ATH Videos with a spark of AI, enjoy!](https://ni5k0.github.io/investing_in_imagination/ath_videos/)
+    
+        I only create videos when a holding I have reaches ATH by a dollar. 
 
-My investment strategies
+- [Portoflio View: Galactic Holdings](https://ni5k0.github.io/galactic_holdings/)
+
+        Explore your stock portfolio in a 3D cosmic landscape, where tickers orbit as planets scaled by allocation, connected by a rocket's journey through space
 
 ## $HOOD Thesis
+
+    My investment strategies
 
 ![HOOD 2025 7 Powers](hood_2025_7power.jpg)
 
