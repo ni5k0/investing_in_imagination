@@ -55,3 +55,20 @@ X Post: https://x.com/ni5k0/status/1942026312476185079
 ![The forever subscription](img/netlix_forever.png)
 
 X Post: https://x.com/ni5k0/status/1941553624053842069
+
+## Roth IRA Strategy
+
+Roth IRA has a contribution limit & cash can be generated with Dividend and options. The $$ generated from one asset type will be used to buy shares on the other asset type.
+
+![Roth IRA Strategy](img/roth_ira_2025_strategy.png)
+
+**Equity: $HOOD + $RKLB**
+> The bear case is that Robinhood takes out the "buy" button & Rocker lab don't launch any more rockets
+> Use premium from Cover calls & Cash Secure puts to buy YieldMax ETF
+
+**YieldMax ETF: $MSTY + $NYDY + $TSLY**
+> New contribution will be going toward YieldMax ETF
+> Nav might erode 
+> Dividend will be used to buy $HOOD & $RKLB
+
+X Post: https://x.com/ni5k0/status/1941508051833585872 
