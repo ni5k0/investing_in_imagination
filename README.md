@@ -16,6 +16,11 @@ My investment journey + AI imagination !
         where tickers orbit as planets scaled by allocation, 
         connected by a rocket's journey through space.
 
+- [$HOOD Shareholder Analytics](https://ni5k0.github.io/hood/)
+
+        view your $HOOD ownership. Just input the number of share
+        you own!
+
 ## $HOOD Thesis
 
     My analysis of $HOOD using
