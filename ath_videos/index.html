@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATH Videos</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            background-color: #000000;
+            color: #ffffff;
+            overflow: hidden; /* Hide scrollbars */
+        }
+        #stars-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .content-container {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            place-items: center;
+            width: 100vw;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            opacity: 0.91;
+
+        }
+    </style>
+</head>
+<body>
+    <canvas id="stars-bg"></canvas>
+    <div class="content-container">
+        <video controls autoplay loop>
+            <source src="videos/hood_101.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('stars-bg');
+        const ctx = canvas.getContext('2d');
+
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+
+        window.onresize = () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        };
+
+        const stars = [];
+        const numStars = 200;
+
+        for (let i = 0; i < numStars; i++) {
+            stars.push({
+                x: Math.random() * width,
+                y: Math.random() * height,
+                radius: Math.random() * 1.5,
+                vx: Math.floor(Math.random() * 50) - 25,
+                vy: Math.floor(Math.random() * 50) - 25
+            });
+        }
+
+        function draw() {
+            ctx.clearRect(0, 0, width, height);
+            ctx.globalCompositeOperation = "lighter";
+
+            for (let i = 0, x = stars.length; i < x; i++) {
+                const s = stars[i];
+
+                ctx.fillStyle = "#fff";
+                ctx.beginPath();
+                ctx.arc(s.x, s.y, s.radius, 0, 2 * Math.PI);
+                ctx.fill();
+                ctx.fillStyle = 'black';
+                ctx.stroke();
+            }
+
+            ctx.beginPath();
+            for (let i = 0, x = stars.length; i < x; i++) {
+                const starI = stars[i];
+                ctx.moveTo(starI.x, starI.y);
+                for (let j = i + 1, y = stars.length; j < y; j++) {
+                    const starJ = stars[j];
+                    const distance = Math.sqrt(
+                        (starI.x - starJ.x) * (starI.x - starJ.x) +
+                        (starI.y - starJ.y) * (starI.y - starJ.y)
+                    );
+                    if (distance < 150) {
+                        ctx.lineTo(starJ.x, starJ.y);
+                    }
+                }
+            }
+            ctx.lineWidth = 0.05;
+            ctx.strokeStyle = 'white';
+            ctx.stroke();
+        }
+
+        function update() {
+            for (let i = 0, x = stars.length; i < x; i++) {
+                const s = stars[i];
+
+                s.x += s.vx / 60;
+                s.y += s.vy / 60;
+
+                if (s.x < 0 || s.x > width) s.vx = -s.vx;
+                if (s.y < 0 || s.y > height) s.vy = -s.vy;
+            }
+        }
+
+        function tick() {
+            draw();
+            update();
+            requestAnimationFrame(tick);
+        }
+
+        tick();
+    </script>
+</body>
+</html>
