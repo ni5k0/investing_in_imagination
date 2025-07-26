@@ -67,7 +67,7 @@ Roth IRA has a contribution limit & cash can be generated with Dividend and opti
 
 ![Roth IRA Strategy](img/roth_ira_2025_strategy_v2.png)
 
-**Equity: $HOOD + $RKLB**
+**Equity: $HOOD + $RKLB + TSLA**
 > The bear case is that Robinhood takes out the "buy" button & Rocker lab don't launch any more rockets
 > Use premium from Cover calls & Cash Secure puts to buy YieldMax ETF
 
@@ -75,6 +75,9 @@ Roth IRA has a contribution limit & cash can be generated with Dividend and opti
 > New contribution will be going toward YieldMax ETF
 > Nav might erode 
 > Dividend will be used to buy $HOOD & $RKLB
+
+**Crypto ETF: $SSK**
+> Invest now, reserach later
 
 X Post: https://x.com/ni5k0/status/1941508051833585872
 
